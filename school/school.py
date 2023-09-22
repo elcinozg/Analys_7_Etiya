@@ -7,3 +7,10 @@ class school(student,teacher):
         self.name = name
         self.age = age
         self.gender = gender
+    def getname (self):
+        return self.name
+
+print(school)
+    
+    
+    
